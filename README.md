@@ -52,5 +52,3 @@ export default tseslint.config({
   },
 })
 ```
-# Mini-Turn-Based-Game
-# Mini-Turn-Based-Game
