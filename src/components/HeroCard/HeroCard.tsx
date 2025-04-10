@@ -1,5 +1,6 @@
 import React from "react";
-import { Hero } from "../types/heroTypes";
+import { Hero } from "../../types/heroTypes";
+import styles from "./HeroCard.module.css";
 
 interface HeroCardProps {
 	hero: Hero | null | undefined;
@@ -10,7 +11,7 @@ const HeroCard: React.FC<HeroCardProps> = ({ hero }) => {
 		return <div>No Hero</div>;
 	}
 	return (
-		<div>
+		<div className={styles.heroCard}>
 			<p>Name: {hero.name}</p>
 			<p>Class: {hero.class}</p>
 		</div>
