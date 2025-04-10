@@ -3,7 +3,7 @@ import { Hero } from "../../types/heroTypes";
 import styles from "./HeroCard.module.css";
 
 interface HeroCardProps {
-	hero: Hero | null | undefined;
+	hero: Hero | undefined;
 }
 
 const HeroCard: React.FC<HeroCardProps> = ({ hero }) => {

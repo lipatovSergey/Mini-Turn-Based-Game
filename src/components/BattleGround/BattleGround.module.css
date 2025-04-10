@@ -1,0 +1,8 @@
+.battleGround {
+	display: flex;
+	justify-content: space-between;
+}
+
+.heroCard {
+	border: 1px solid white;
+}
