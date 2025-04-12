@@ -14,6 +14,9 @@ const HeroCard: React.FC<HeroCardProps> = ({ hero }) => {
 		<div className={styles.heroCard}>
 			<p>Name: {hero.name}</p>
 			<p>Class: {hero.class}</p>
+			<p>Health: {hero.class}</p>
+			<p>Attack: {hero.attack}</p>
+			<p>Status: {hero.status}</p>
 		</div>
 	);
 };

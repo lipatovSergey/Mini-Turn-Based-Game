@@ -5,3 +5,4 @@ export type Hero = {
 	attack: number;
 	status: "Dead" | "Alive";
 };
+
